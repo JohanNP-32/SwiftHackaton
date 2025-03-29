@@ -5,13 +5,6 @@
 //  Created by Johan Nunez Pulido on 28/03/25.
 //
 
-//
-//  Usuario.swift
-//  SwiftHackaton
-//
-//  Created by Johan Nunez Pulido on 28/03/25.
-//
-
 import SwiftUI
 
 // MARK: - Modelo de Usuario
@@ -112,7 +105,7 @@ struct Usuario: View {
                             }
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding()
-                            .background(Color.white.opacity(0.1))
+                            .background(Color.white.opacity(0.175))
                             .cornerRadius(10)
                         }
                         .frame(maxWidth: .infinity)

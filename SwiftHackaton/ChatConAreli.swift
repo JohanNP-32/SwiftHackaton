@@ -39,7 +39,7 @@ struct ChatConAreli: View {
                                             }
                                         }
                                 } else {
-                                    MensajeBurbuja(texto: mensaje.texto, color: Color.white.opacity(0.15), alineacion: .leading)
+                                    MensajeBurbuja(texto: mensaje.texto, color: Color.white.opacity(0.175), alineacion: .leading)
                                         .contextMenu {
                                             Button(role: .destructive) {
                                                 mensajes.remove(at: index)

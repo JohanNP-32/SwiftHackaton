@@ -22,7 +22,7 @@ struct Chat: View {
 
                 TextField("Buscar mensajes o personas", text: .constant(""))
                     .padding(10)
-                    .background(Color.white.opacity(0.1))
+                    .background(Color.white.opacity(0.175))
                     .cornerRadius(10)
                     .foregroundColor(.white)
 
@@ -83,7 +83,7 @@ struct Chat: View {
                                     .padding(.leading, 4)
                                 }
                                 .padding()
-                                .background(Color.white.opacity(0.05))
+                                .background(Color.white.opacity(0.175))
                                 .cornerRadius(12)
                                 .padding(.horizontal)
                             }
@@ -114,7 +114,7 @@ struct Chat: View {
                                 .padding(.leading, 4)
                             }
                             .padding()
-                            .background(Color.white.opacity(0.05))
+                            .background(Color.white.opacity(0.175))
                             .cornerRadius(12)
                             .padding(.horizontal)
                         }

@@ -59,7 +59,7 @@ struct HomePage: View {
                         Spacer()
                     }
                     .padding()
-                    .background(Color.white.opacity(0.1))
+                    .background(Color.white.opacity(0.175))
                     .cornerRadius(12)
                     
                     // Cuadrícula de categorías con NavigationLinks

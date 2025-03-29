@@ -51,7 +51,7 @@ struct Configuracion: View {
                     }
                     .frame(maxWidth: .infinity, alignment:.leading)
                     .padding()
-                    .background(Color.white.opacity(0.1))
+                    .background(Color.white.opacity(0.175))
                     .cornerRadius(15)
                     .padding(.horizontal)
 
@@ -72,7 +72,7 @@ struct Configuracion: View {
                             .labelsHidden()
                     }
                     .padding()
-                    .background(Color.white.opacity(0.1))
+                    .background(Color.white.opacity(0.175))
                     .cornerRadius(15)
                     .padding(.horizontal)
 
@@ -109,7 +109,7 @@ struct Configuracion: View {
                     }
                     .frame(maxWidth: .infinity, alignment:.leading)
                     .padding()
-                    .background(Color.white.opacity(0.1))
+                    .background(Color.white.opacity(0.175))
                     .cornerRadius(15)
                     .padding(.horizontal)
 
@@ -131,7 +131,7 @@ struct Configuracion: View {
                                 .foregroundColor(.white)
                         }
                         .padding()
-                        .background(Color.white.opacity(0.1))
+                        .background(Color.white.opacity(0.175))
                         .cornerRadius(15)
                     }
                     .padding(.horizontal)
@@ -153,7 +153,7 @@ struct Configuracion: View {
                             .foregroundColor(.white)
                     }
                     .padding()
-                    .background(Color.white.opacity(0.1))
+                    .background(Color.white.opacity(0.175))
                     .cornerRadius(15)
                     .padding(.horizontal)
 

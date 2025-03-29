@@ -65,7 +65,7 @@ struct Programacion: View {
                             }
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
-                            .background(Color.white.opacity(0.1))
+                            .background(Color.white.opacity(0.175))
                             .cornerRadius(12)
                         }
                     }

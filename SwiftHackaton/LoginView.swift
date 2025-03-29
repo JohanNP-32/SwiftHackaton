@@ -81,7 +81,7 @@ struct NeonTextFieldStyle: TextFieldStyle {
     func _body(configuration: TextField<Self._Label>) -> some View {
         configuration
             .padding()
-            .background(Color.white.opacity(0.1))
+            .background(Color.white.opacity(0.175))
             .cornerRadius(8)
             .foregroundColor(.white)
             .overlay(
